@@ -21,7 +21,7 @@ func MockConfig() model.Config {
 }
 
 func TestCreateScyllaDBClient(t *testing.T) {
-	expectedHosts := []string{"127.0.0.1:9042"}
+	expectedHosts := []string{"10.128.0.10:9042"}
 	ReadConfigAndProperty := MockConfig
 	ReadConfigAndProperty()
 
