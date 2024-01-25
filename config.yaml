@@ -1,6 +1,6 @@
 scylladb:
   host: ["10.128.0.10:9042"]
-  username: cassandra
+  username: scylladb
   password: cassandra
   keyspace: employee_db
 
