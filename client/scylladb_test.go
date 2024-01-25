@@ -12,7 +12,7 @@ import (
 func MockConfig() model.Config {
 	return model.Config{
 		ScyllaDB: model.ScyllaDB{
-			Host:     []string{"127.0.0.1:9042"},
+			Host:     []string{"10.128.0.10:9042"},
 			Keyspace: "employee_db",
 			Username: "scylladb",
 			Password: "password",
